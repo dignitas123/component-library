@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "incremental": true,
+        "inlineSourceMap": false,
+        "module": "CommonJS",
+        "removeComments": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "strict": true,
+        "target": "es2019",
+        "baseUrl": ".",
+        "outDir": "dist"
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "dist", "tests"]
+}

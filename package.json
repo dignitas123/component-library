@@ -1,0 +1,56 @@
+{
+  "name": "component-library",
+  "version": "1.0.0",
+  "author": "Niclas Hummel",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "source": "./src/index.ts",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "./dist",
+    "./src"
+  ],
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "vue": "3.2.20"
+  },
+  "scripts": {
+    "build": "tsc && rollup -c",
+    "rebuild": "yarn rimraf */src/**/*.d.ts */src/**/*.js */tsconfig.tsbuildinfo */dist && yarn && yarn build",
+    "test:unit": "vue-cli-service test:unit",
+    "test": "yarn test:unit"
+  },
+  "devDependencies": {
+    "@babel/types": "^7.17.0",
+    "@rollup/plugin-typescript": "^8.3.1",
+    "@types/jest": "^27.0.0",
+    "@vue/cli-plugin-babel": "^5.0.3",
+    "@vue/cli-plugin-typescript": "^5.0.3",
+    "@vue/cli-plugin-unit-jest": "^4.5.13",
+    "@vue/cli-service": "^5.0.3",
+    "@vue/compiler-sfc": "^3.2.20",
+    "@vue/test-utils": "^2.0.0-rc.12",
+    "@vue/vue3-jest": "^27.0.0-alpha.4",
+    "jest-junit": "^13.0.0",
+    "node-sass": "^7.0.1",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.70.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-scss": "^3.0.0",
+    "rollup-plugin-typescript-resolve": "^1.0.1",
+    "rollup-plugin-vue": "^6.0.0",
+    "typescript": "^4.6.2",
+    "vue": "3.2.20",
+    "vue-jest": "^5.0.0-alpha.10",
+    "vue-router": "^4.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "7.12.1",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-vue": "^7.0.0"
+  }
+}
