@@ -20,6 +20,6 @@ export default [
                 sourcemap: true
             }
         ],
-        plugins: [vue(), scss(), peerDepsExternal(), typescript({outputToFilesystem: true})]
+        plugins: [vue(), scss(), peerDepsExternal(), typescript({outputToFilesystem: true, module: "ESNext"})]
     }
 ]
