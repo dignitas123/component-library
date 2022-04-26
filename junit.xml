@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="2" failures="0" errors="0" time="0.896">
-  <testsuite name="TestComponentInput.vue component test" errors="0" failures="0" skipped="0" timestamp="2022-04-26T19:34:17" time="0.486" tests="1">
-    <testcase classname="TestComponentInput.vue component test rendering TestComponentInput.vue correct" name="TestComponentInput.vue component test rendering TestComponentInput.vue correct" time="0.012">
+<testsuites name="jest tests" tests="2" failures="0" errors="0" time="0.741">
+  <testsuite name="TestComponentInputTextArea.vue component test" errors="0" failures="0" skipped="0" timestamp="2022-04-26T19:45:29" time="0.42" tests="1">
+    <testcase classname="TestComponentInputTextArea.vue component test rendering TestComponentInputTextArea.vue correct" name="TestComponentInputTextArea.vue component test rendering TestComponentInputTextArea.vue correct" time="0.009">
     </testcase>
   </testsuite>
-  <testsuite name="TestComponentInputTextArea.vue component test" errors="0" failures="0" skipped="0" timestamp="2022-04-26T19:34:17" time="0.487" tests="1">
-    <testcase classname="TestComponentInputTextArea.vue component test rendering TestComponentInputTextArea.vue correct" name="TestComponentInputTextArea.vue component test rendering TestComponentInputTextArea.vue correct" time="0.012">
+  <testsuite name="TestComponentInput.vue component test" errors="0" failures="0" skipped="0" timestamp="2022-04-26T19:45:29" time="0.026" tests="1">
+    <testcase classname="TestComponentInput.vue component test rendering TestComponentInput.vue correct" name="TestComponentInput.vue component test rendering TestComponentInput.vue correct" time="0.003">
     </testcase>
   </testsuite>
 </testsuites>

@@ -18,8 +18,8 @@
   "scripts": {
     "build": "tsc && rollup -c",
     "rebuild": "yarn rimraf */src/**/*.d.ts */src/**/*.js */tsconfig.tsbuildinfo */dist && yarn && yarn build",
-    "test:unit": "vue-cli-service test:unit",
-    "test": "yarn test:unit"
+    "watch": "yarn rollup -c -w",
+    "test": "vue-cli-service test:unit"
   },
   "devDependencies": {
     "@babel/types": "^7.17.0",
